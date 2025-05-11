@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление задачами</title>
+    <link rel="stylesheet" href="/front/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Управление задачами</h1>
+        <button id="logoutButton">Выйти</button>
+
+        <div class="task-form">
+            <input type="hidden" id="taskId">
+            <label for="taskName">Название задачи:</label>
+            <input type="text" id="taskName" placeholder="Введите название задачи">
+
+            <label for="taskDescription">Описание задачи:</label>
+            <textarea id="taskDescription" placeholder="Введите описание задачи"></textarea>
+
+            <button id="saveButton">Сохранить</button>
+            <button id="resetButton">Сбросить</button>
+        </div>
+
+        <h2>Список задач</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Описание</th>
+                    <th>Статус</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Задачи будут добавляться сюда -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/front/script.js"></script>
+</body>
+</html>

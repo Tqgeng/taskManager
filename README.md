@@ -29,4 +29,6 @@ docker compose up --build -d
 
 API: http://localhost:8000/docs
 
-pgAdmin: http://localhost:5050 (email: admin@admin.org, пароль: admin)
+pgAdmin: http://localhost:5050 (пароль: admin) (пароль от бд: 123)
+
+APP: http://localhost:8000/
